@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Name=Disk Tool Zenity
+Exec=bash disk-tool.sh
+Icon=drive-harddisk
+Type=Application
+Categories=Utility;System;
+Terminal=false
