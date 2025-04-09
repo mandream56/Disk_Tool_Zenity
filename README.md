@@ -40,4 +40,4 @@ chmod +x disk-tool.sh
 MIT - Utilisation libre à condition de conserver les mentions d’auteur.
 
 ---
-© 2024 - Script créé par [TonNom]
+© 2024 - Script créé par Mandream56
