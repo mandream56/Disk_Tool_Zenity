@@ -1,43 +1,31 @@
 # Disk Tool Zenity
 
-![screenshot](screenshot.png)
+Disk Tool est un outil graphique pour cloner, restaurer, réduire et vérifier des images disque avec une interface Zenity.
+Développé par ChatGPT avec l'aide de Cédric 😺
 
-**Disk Tool Zenity** est un outil graphique tout-en-un pour gérer les images disques sur Linux. Il permet de cloner, restaurer, réduire et vérifier l'intégrité des disques avec une interface intuitive basée sur Zenity.
+## Fonctionnalités
 
-## ✨ Fonctionnalités
+- Clonage de disques
+- Restauration d’images .img
+- Réduction de taille avec gzip
+- Vérification SHA256
+- Génération de rapports PDF et statistiques Gnuplot
+- Interface graphique simple via Zenity
+- Nettoyage automatique ou manuel des fichiers temporaires
 
-- Clonage de disque vers fichier image `.img`
-- Restauration d’image `.img` vers un disque
-- Réduction automatique de la taille d’une image disque
-- Compression `.img.gz` avec évaluation du gain
-- Vérification SHA256 des images
-- Génération de rapports PDF
-- Affichage temps réel des logs
-- Graphique des opérations de clonage (gnuplot)
-- Interface simple via Zenity
-
-## 📦 Dépendances
-
-Le script vérifie automatiquement et installe (via `apt`) les outils suivants :
-
-```bash
-lsblk dd losetup mount umount parted fdisk truncate grep awk xargs sudo zenity gzip sha256sum cmp enscript ps2pdf xdg-open gnuplot tail appimagetool
-```
-
-## 🚀 Utilisation
+## Lancer l'outil
 
 ```bash
 chmod +x disk-tool.sh
 ./disk-tool.sh
 ```
 
-## 📸 Capture d'écran
+## À propos
 
-*(Ajoutez une capture si nécessaire dans le fichier `screenshot.png`)*
-
-## 📄 Licence
-
-MIT - Utilisation libre à condition de conserver les mentions d’auteur.
-
----
-© 2024 - Script créé par Mandream56
+```
+  /\_/\  
+ ( o.o )  Le Chat Potté vous salue !
+  > ^ <
+```
+Programme développé par ChatGPT avec l’aide précieuse de Cédric
+(qui n’a fait que poser des questions au dev 😉)
